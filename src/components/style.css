@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+}
+.sidebar {
+  box-shadow: 0px 0px 10px -5px;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+  color: black;
+  height: min-content;
+}
+.top_section {
+  display: flex;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 10px !important;
+}
+.link {
+  display: flex;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.li {
+  color: black;
+}
+.icon,
+.link_text {
+  font-size: 15px;
+}
+.top_section {
+  justify-content: space-evenly;
+}
+.css-7e0s21-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.css-h4y409-MuiList-root {
+  padding-top: 0px !important;
+}
+.css-1p823my-MuiListItem-root {
+  padding-top: 8px !important;
+  padding-left: 0px !important;
+}
+.css-1p823my-MuiListItem-root {
+  padding-bottom: 0px !important;
+}
+.css-sxh3gq-MuiAvatar-root-MuiAvatarGroup-avatar {
+  flex-shrink: 1 !important;
+  width: 38px !important;
+  height: 34px !important;
+}
+.css-mhc70k-MuiGrid-root {
+  margin-top: 0px !important;
+}
