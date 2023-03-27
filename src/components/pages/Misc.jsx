@@ -37,7 +37,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (<>
     <AppBar position="sticky">
-      <StyledToolbar>
+      <StyledToolbar style={{backgroundColor:'#ffff'}}>
         <Search>
           <InputBase placeholder="search anything" />
         </Search>

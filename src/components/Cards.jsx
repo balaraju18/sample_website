@@ -42,7 +42,7 @@ function Cards() {
               <Stack spacing={2} direction="row">
                 <Card
                   style={{ borderRadius: "8px",boxShadow:'0px 2px 6px #7070701A',border:'1px solid #E4E4E4' }}
-                  sx={{ maxWidth: 44 + "%", height: 215 }}
+                  sx={{ maxWidth: 44 + "%", height: 230 }}
                 >
                   <CardContent style={{ fontSize: "12px" }}>
                     <Typography gutterBottom variant="h6" component="div">
